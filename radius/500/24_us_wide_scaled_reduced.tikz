@@ -1,0 +1,118 @@
+\usetikzlibrary{shadows,shapes,snakes}
+
+ \tikzstyle{nodestyle}=[draw,circle, minimum size=20,fill=white,inner sep=0.2pt,circular drop shadow]
+\tikzstyle{edgestyle}=[draw,line width=2 pt]
+
+% Initially 100% transparent circles. Change opacity between 0 and 1 to color them. 
+\tikzstyle{circlestyle1}=[draw,line width=1.0pt,fill={rgb:red,6;green,1;blue,1}, fill opacity=0.0]
+\tikzstyle{circlestyle2}=[draw,line width=1.0pt,fill={rgb:red,1;green,2;blue,0}, fill opacity=0.0]
+\tikzstyle{circlestyle3}=[draw,line width=1.0pt,fill={rgb:red,1;green,0;blue,2}, fill opacity=0.0]
+\begin{tikzpicture}
+
+% the nodes
+ \node[nodestyle] (v23) at (327,33) {};
+\node[nodestyle] (v22) at (346,61) {};
+\node[nodestyle] (v21) at (337,78) {};
+\node[nodestyle] (v20) at (331,180) {};
+\node[nodestyle] (v19) at (274,181) {};
+\node[nodestyle] (v18) at (278,145) {};
+\node[nodestyle] (v17) at (343,117) {};
+\node[nodestyle] (v16) at (293,120) {};
+\node[nodestyle] (v15) at (283,92) {};
+\node[nodestyle] (v14) at (290,69) {};
+\node[nodestyle] (v13) at (251,62) {};
+\node[nodestyle] (v12) at (186,194) {};
+\node[nodestyle] (v11) at (193,165) {};
+\node[nodestyle] (v10) at (185,75) {};
+\node[nodestyle] (v9) at (119,85) {};
+\node[nodestyle] (v8) at (116,171) {};
+\node[nodestyle] (v7) at (70,164) {};
+\node[nodestyle] (v6) at (15,153) {};
+\node[nodestyle] (v5) at (36,116) {};
+\node[nodestyle] (v4) at (-13,87) {};
+\node[nodestyle] (v3) at (69,72) {};
+\node[nodestyle] (v2) at (70,16) {};
+\node[nodestyle] (v1) at (-4,13) {};
+\node[nodestyle] (v0) at (-1,-7) {};
+
+
+% the edges
+ \draw[edgestyle]  (v23) edge (v22);
+\draw[edgestyle]  (v22) edge (v21);
+\draw[edgestyle]  (v21) edge (v16);
+\draw[edgestyle]  (v21) edge (v15);
+\draw[edgestyle]  (v20) edge (v19);
+\draw[edgestyle]  (v19) edge (v18);
+\draw[edgestyle]  (v18) edge (v17);
+\draw[edgestyle]  (v18) edge (v15);
+\draw[edgestyle]  (v17) edge (v20);
+\draw[edgestyle]  (v16) edge (v18);
+\draw[edgestyle]  (v16) edge (v17);
+\draw[edgestyle]  (v15) edge (v16);
+\draw[edgestyle]  (v15) edge (v14);
+\draw[edgestyle]  (v14) edge (v22);
+\draw[edgestyle]  (v14) edge (v13);
+\draw[edgestyle]  (v13) edge (v23);
+\draw[edgestyle]  (v13) edge (v9);
+\draw[edgestyle]  (v12) edge (v8);
+\draw[edgestyle]  (v12) edge (v19);
+\draw[edgestyle]  (v11) edge (v12);
+\draw[edgestyle]  (v11) edge (v8);
+\draw[edgestyle]  (v11) edge (v18);
+\draw[edgestyle]  (v10) edge (v11);
+\draw[edgestyle]  (v10) edge (v15);
+\draw[edgestyle]  (v9) edge (v10);
+\draw[edgestyle]  (v9) edge (v3);
+\draw[edgestyle]  (v8) edge (v9);
+\draw[edgestyle]  (v7) edge (v8);
+\draw[edgestyle]  (v7) edge (v3);
+\draw[edgestyle]  (v6) edge (v5);
+\draw[edgestyle]  (v6) edge (v7);
+\draw[edgestyle]  (v5) edge (v4);
+\draw[edgestyle]  (v4) edge (v6);
+\draw[edgestyle]  (v4) edge (v3);
+\draw[edgestyle]  (v3) edge (v5);
+\draw[edgestyle]  (v3) edge (v2);
+\draw[edgestyle]  (v2) edge (v13);
+\draw[edgestyle]  (v2) edge (v9);
+\draw[edgestyle]  (v2) edge (v0);
+\draw[edgestyle]  (v1) edge (v4);
+\draw[edgestyle]  (v1) edge (v2);
+\draw[edgestyle]  (v0) edge (v1);
+
+
+% the bombs
+
+ % bomb set 1
+ \draw[circlestyle1]  (102.815,44.5949) ellipse (43.526 and 43.526);
+\draw[circlestyle1]  (298.8,103.839) ellipse (46.1183 and 46.1183);
+\draw[circlestyle1]  (315.612,78.693) ellipse (47.0909 and 47.0909);
+\draw[circlestyle1]  (298.618,72.7057) ellipse (48.8066 and 48.8066);
+\draw[circlestyle1]  (298.811,138.554) ellipse (49.1655 and 49.1655);
+\draw[circlestyle1]  (50.5588,118.206) ellipse (49.75 and 49.75);
+\draw[circlestyle1]  (32.9306,106.454) ellipse (49.8805 and 49.8805);
+% bomb set 2
+ \draw[circlestyle2]  (40.4882,60.6533) ellipse (49.916 and 49.916);
+% bomb set 3
+ \draw[circlestyle3]  (149.478,63.3561) ellipse (37.3815 and 37.3815);
+\draw[circlestyle3]  (259.998,103.21) ellipse (45.5021 and 45.5021);
+\draw[circlestyle3]  (228.289,175.921) ellipse (45.9918 and 45.9918);
+\draw[circlestyle3]  (146.538,169.13) ellipse (46.6449 and 46.6449);
+\draw[circlestyle3]  (290.662,87.9427) ellipse (47.3929 and 47.3929);
+\draw[circlestyle3]  (30.7439,43.3079) ellipse (47.8201 and 47.8201);
+\draw[circlestyle3]  (106.754,132.101) ellipse (48.6665 and 48.6665);
+\draw[circlestyle3]  (78.3724,140.049) ellipse (48.7215 and 48.7215);
+\draw[circlestyle3]  (292.62,98.3966) ellipse (48.8428 and 48.8428);
+\draw[circlestyle3]  (140.701,128.809) ellipse (48.8895 and 48.8895);
+\draw[circlestyle3]  (237.107,108.886) ellipse (48.9016 and 48.9016);
+\draw[circlestyle3]  (240.554,176.478) ellipse (48.9195 and 48.9195);
+\draw[circlestyle3]  (230.284,132.833) ellipse (49.2424 and 49.2424);
+\draw[circlestyle3]  (79.732,115.34) ellipse (49.6236 and 49.6236);
+\draw[circlestyle3]  (23.1514,52.9945) ellipse (49.6316 and 49.6316);
+\draw[circlestyle3]  (233.338,87.3149) ellipse (49.8823 and 49.8823);
+\draw[circlestyle3]  (238.624,114.798) ellipse (49.8896 and 49.8896);
+\draw[circlestyle3]  (223.665,106.531) ellipse (49.8916 and 49.8916);
+\draw[circlestyle3]  (167.718,121.892) ellipse (49.9749 and 49.9749);
+
+
+\end{tikzpicture}

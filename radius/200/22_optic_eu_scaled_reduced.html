@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<title>Network | 200/22_optic_eu_scaled_reduced</title>
+	<script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
+	<link href="http://visjs.org/dist/vis.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#mynetwork {
+			width: 1000px;
+			height: 800px;
+			border: 1px solid lightgray;
+		}
+	</style>
+</head>
+<body>
+<p>
+	This is the 200/22_optic_eu_scaled_reduced network.
+</p>
+<div id="mynetwork"></div>
+<script type="text/javascript">
+	var nodes = new vis.DataSet([
+		{id: 21, label: '21', x: 329, y: 679, fixed: true, font:{size: 8}},
+		{id: 20, label: '20', x: 1365, y: 95, fixed: true, font:{size: 8}},
+		{id: 19, label: '19', x: 879, y: 791, fixed: true, font:{size: 8}},
+		{id: 18, label: '18', x: 683, y: 1250, fixed: true, font:{size: 8}},
+		{id: 17, label: '17', x: 0, y: 2097, fixed: true, font:{size: 8}},
+		{id: 16, label: '16', x: 641, y: 1904, fixed: true, font:{size: 8}},
+		{id: 15, label: '15', x: 1701, y: 0, fixed: true, font:{size: 8}},
+		{id: 14, label: '14', x: 1481, y: 294, fixed: true, font:{size: 8}},
+		{id: 13, label: '13', x: 1033, y: 1183, fixed: true, font:{size: 8}},
+		{id: 12, label: '12', x: 858, y: 1701, fixed: true, font:{size: 8}},
+		{id: 11, label: '11', x: 1365, y: 644, fixed: true, font:{size: 8}},
+		{id: 10, label: '10', x: 1453, y: 952, fixed: true, font:{size: 8}},
+		{id: 9, label: '9', x: 2800, y: 172, fixed: true, font:{size: 8}},
+		{id: 8, label: '8', x: 1803, y: 777, fixed: true, font:{size: 8}},
+		{id: 7, label: '7', x: 1358, y: 1194, fixed: true, font:{size: 8}},
+		{id: 6, label: '6', x: 2156, y: 987, fixed: true, font:{size: 8}},
+		{id: 5, label: '5', x: 1334, y: 1512, fixed: true, font:{size: 8}},
+		{id: 4, label: '4', x: 1925, y: 1120, fixed: true, font:{size: 8}},
+		{id: 3, label: '3', x: 2685, y: 1173, fixed: true, font:{size: 8}},
+		{id: 2, label: '2', x: 2629, y: 1967, fixed: true, font:{size: 8}},
+		{id: 1, label: '1', x: 1901, y: 1817, fixed: true, font:{size: 8}},
+		{id: 0, label: '0', x: 1666, y: 1243, fixed: true, font:{size: 8}},
+		{id: 22, x: 1553.12, y: 118.653, size: 189.599, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 23, x: 879, y: 791, size: 200, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 24, x: 1901, y: 1817, size: 200, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 25, x: 2629, y: 1967, size: 200, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 26, x: 2685, y: 1173, size: 200, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 27, x: 2800, y: 172, size: 200, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 28, x: 1590.98, y: 526.935, size: 177.673, shape: 'dot', physics: false, color: 'rgba(76,153,0,0.4)'},
+		{id: 29, x: 1108.5, y: 1541.45, size: 186.257, shape: 'dot', physics: false, color: 'rgba(76,153,0,0.4)'},
+		{id: 30, x: 1130.6, y: 912.961, size: 189.579, shape: 'dot', physics: false, color: 'rgba(76,153,0,0.4)'},
+		{id: 31, x: 1152.3, y: 1378.38, size: 191.237, shape: 'dot', physics: false, color: 'rgba(76,153,0,0.4)'},
+		{id: 32, x: 542.116, y: 1732.2, size: 193.014, shape: 'dot', physics: false, color: 'rgba(76,153,0,0.4)'},
+		{id: 33, x: 735.346, y: 962.011, size: 196.237, shape: 'dot', physics: false, color: 'rgba(76,153,0,0.4)'},
+		{id: 34, x: 1320.71, y: 1631.49, size: 120.229, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 35, x: 1268.55, y: 1347.15, size: 177.365, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 36, x: 983.276, y: 1008.6, size: 181.352, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 37, x: 1899.42, y: 935.9, size: 185.868, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 38, x: 1182.42, y: 682.342, size: 186.564, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 39, x: 1309.62, y: 826.396, size: 190.619, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 40, x: 845.167, y: 1149.46, size: 190.804, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 41, x: 1850.46, y: 1297.23, size: 192.267, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 42, x: 1199.09, y: 1082.44, size: 194.162, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 43, x: 1539.88, y: 1125.75, size: 194.259, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 44, x: 1693.13, y: 1049.92, size: 194.975, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 45, x: 1149.04, y: 1449.51, size: 195.234, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 46, x: 836.382, y: 1895.37, size: 195.572, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 47, x: 1358.45, y: 447.607, size: 196.503, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 48, x: 1751.49, y: 1024.3, size: 198.155, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 49, x: 1541.87, y: 1398.18, size: 198.715, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 50, x: 1966.77, y: 925.443, size: 198.99, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 51, x: 1644.41, y: 897.312, size: 199.066, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 52, x: 1972.77, y: 907.579, size: 199.705, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+	]);
+	var edges = new vis.DataSet([
+		{from: 19, to: 21},
+		{from: 19, to: 20},
+		{from: 18, to: 21},
+		{from: 18, to: 19},
+		{from: 17, to: 18},
+		{from: 16, to: 17},
+		{from: 15, to: 20},
+		{from: 14, to: 20},
+		{from: 14, to: 15},
+		{from: 13, to: 19},
+		{from: 13, to: 18},
+		{from: 12, to: 18},
+		{from: 12, to: 16},
+		{from: 12, to: 13},
+		{from: 11, to: 19},
+		{from: 11, to: 14},
+		{from: 10, to: 19},
+		{from: 10, to: 13},
+		{from: 10, to: 11},
+		{from: 9, to: 15},
+		{from: 8, to: 15},
+		{from: 8, to: 11},
+		{from: 8, to: 10},
+		{from: 8, to: 9},
+		{from: 7, to: 13},
+		{from: 7, to: 10},
+		{from: 6, to: 8},
+		{from: 5, to: 13},
+		{from: 5, to: 12},
+		{from: 5, to: 7},
+		{from: 4, to: 8},
+		{from: 4, to: 6},
+		{from: 3, to: 6},
+		{from: 2, to: 3},
+		{from: 1, to: 12},
+		{from: 1, to: 5},
+		{from: 1, to: 4},
+		{from: 1, to: 3},
+		{from: 1, to: 2},
+		{from: 0, to: 10},
+		{from: 0, to: 8},
+		{from: 0, to: 7},
+		{from: 0, to: 5},
+		{from: 0, to: 4},
+		{from: 0, to: 1},
+	]);
+	// create a network
+	var container = document.getElementById('mynetwork');
+	var data = {
+		nodes: nodes,
+		edges: edges
+	};
+	var options = {
+		edges: {
+			smooth: {
+				type: 'continuous',
+				roundness: 1
+			}
+		},
+		configure: true
+	};
+	var network = new vis.Network(container, data, options);
+</script>
+<script src="http://visjs.org/examples/googleAnalytics.js"></script>
+</body>
+</html>
