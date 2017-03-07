@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+	<title>Network | 500/39_optic_north_american_scaled_reduced</title>
+	<script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
+	<link href="http://visjs.org/dist/vis.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#mynetwork {
+			width: 1000px;
+			height: 800px;
+			border: 1px solid lightgray;
+		}
+	</style>
+</head>
+<body>
+<p>
+	This is the 500/39_optic_north_american_scaled_reduced network.
+</p>
+<div id="mynetwork"></div>
+<script type="text/javascript">
+	var nodes = new vis.DataSet([
+		{id: 38, label: '38', x: 421, y: 120, fixed: true, font:{size: 8}},
+		{id: 37, label: '37', x: 385, y: 2064, fixed: true, font:{size: 8}},
+		{id: 36, label: '36', x: 213, y: 1508, fixed: true, font:{size: 8}},
+		{id: 35, label: '35', x: 660, y: 1841, fixed: true, font:{size: 8}},
+		{id: 34, label: '34', x: 983, y: 1288, fixed: true, font:{size: 8}},
+		{id: 33, label: '33', x: 1373, y: 2565, fixed: true, font:{size: 8}},
+		{id: 32, label: '32', x: 2241, y: 2502, fixed: true, font:{size: 8}},
+		{id: 31, label: '31', x: 2402, y: 2867, fixed: true, font:{size: 8}},
+		{id: 30, label: '30', x: 2137, y: 2109, fixed: true, font:{size: 8}},
+		{id: 29, label: '29', x: 2449, y: 822, fixed: true, font:{size: 8}},
+		{id: 28, label: '28', x: 2267, y: 1479, fixed: true, font:{size: 8}},
+		{id: 27, label: '27', x: 1466, y: 1489, fixed: true, font:{size: 8}},
+		{id: 26, label: '26', x: 2881, y: 1171, fixed: true, font:{size: 8}},
+		{id: 25, label: '25', x: 3068, y: 1431, fixed: true, font:{size: 8}},
+		{id: 24, label: '24', x: 3297, y: 996, fixed: true, font:{size: 8}},
+		{id: 23, label: '23', x: 2688, y: 1707, fixed: true, font:{size: 8}},
+		{id: 22, label: '22', x: 3047, y: 1919, fixed: true, font:{size: 8}},
+		{id: 21, label: '21', x: 3453, y: 1124, fixed: true, font:{size: 8}},
+		{id: 20, label: '20', x: 3962, y: 1092, fixed: true, font:{size: 8}},
+		{id: 19, label: '19', x: 3869, y: 525, fixed: true, font:{size: 8}},
+		{id: 18, label: '18', x: 3515, y: 2184, fixed: true, font:{size: 8}},
+		{id: 17, label: '17', x: 2818, y: 2735, fixed: true, font:{size: 8}},
+		{id: 16, label: '16', x: 4155, y: 753, fixed: true, font:{size: 8}},
+		{id: 15, label: '15', x: 3260, y: 2221, fixed: true, font:{size: 8}},
+		{id: 14, label: '14', x: 3791, y: 3175, fixed: true, font:{size: 8}},
+		{id: 13, label: '13', x: 3869, y: 1389, fixed: true, font:{size: 8}},
+		{id: 12, label: '12', x: 4014, y: 1293, fixed: true, font:{size: 8}},
+		{id: 11, label: '11', x: 3520, y: 625, fixed: true, font:{size: 8}},
+		{id: 10, label: '10', x: 3557, y: 1293, fixed: true, font:{size: 8}},
+		{id: 9, label: '9', x: 3240, y: 1452, fixed: true, font:{size: 8}},
+		{id: 8, label: '8', x: 3557, y: 2883, fixed: true, font:{size: 8}},
+		{id: 7, label: '7', x: 2787, y: 2099, fixed: true, font:{size: 8}},
+		{id: 6, label: '6', x: 2096, y: 223, fixed: true, font:{size: 8}},
+		{id: 5, label: '5', x: 1024, y: 175, fixed: true, font:{size: 8}},
+		{id: 4, label: '4', x: 380, y: 307, fixed: true, font:{size: 8}},
+		{id: 3, label: '3', x: 343, y: 572, fixed: true, font:{size: 8}},
+		{id: 2, label: '2', x: 369, y: 1479, fixed: true, font:{size: 8}},
+		{id: 1, label: '1', x: 884, y: 2274, fixed: true, font:{size: 8}},
+		{id: 0, label: '0', x: 551, y: 2284, fixed: true, font:{size: 8}},
+		{id: 39, x: 962, y: 2424.5, size: 434.352, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 40, x: 1797.96, y: 2408.98, size: 452.697, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 41, x: 2809.25, y: 1632.49, size: 467.037, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 42, x: 1869.51, y: 1725.39, size: 467.658, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 43, x: 2670.29, y: 1237.01, size: 470.323, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 44, x: 204.806, y: 1029.83, size: 478.236, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 45, x: 3571.72, y: 1103.41, size: 481.2, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 46, x: 3091.17, y: 1434.24, size: 486.77, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 47, x: 2561.56, y: 1868.19, size: 488.094, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 48, x: 3432.74, y: 1614.82, size: 491.242, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 49, x: 3483.8, y: 1693.34, size: 491.646, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 50, x: 3095.08, y: 1924.1, size: 493.844, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 51, x: 3318.69, y: 1728.26, size: 496.226, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 52, x: 3453.15, y: 1117.25, size: 496.769, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 53, x: 562.791, y: 1019.57, size: 498.627, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 54, x: 3186.5, y: 2398.28, size: 499.173, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 55, x: 660, y: 1841, size: 500, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 56, x: 3297, y: 996, size: 500, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)'},
+		{id: 57, x: 2368.86, y: 1921.63, size: 454.2, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 58, x: 537.317, y: 1828.35, size: 455.856, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 59, x: 557.769, y: 157.825, size: 466.547, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 60, x: 1123.97, y: 1741.17, size: 474.588, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 61, x: 3278.66, y: 2601.38, size: 479.649, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 62, x: 1983.23, y: 692.973, size: 483.314, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 63, x: 3776.92, y: 1054.28, size: 483.443, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 64, x: 2740.29, y: 1610.11, size: 491.116, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 65, x: 1135.15, y: 1851.96, size: 491.119, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 66, x: 3291.04, y: 1489.74, size: 493.779, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 67, x: 2541.1, y: 2393.05, size: 493.943, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 68, x: 2687.71, y: 2258.3, size: 494.184, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 69, x: 3469.71, y: 1142.07, size: 494.826, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 70, x: 3333.76, y: 1372.61, size: 495.621, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 71, x: 2927.63, y: 954.589, size: 496.659, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 72, x: 1337.01, y: 2069.12, size: 497.185, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 73, x: 611.462, y: 1620.1, size: 498.329, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 74, x: 2675.39, y: 2257.22, size: 498.612, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 75, x: 2629.51, y: 2188.93, size: 498.956, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 76, x: 869.001, y: 1774.52, size: 499.701, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 77, x: 2854.86, y: 1229, size: 499.78, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+		{id: 78, x: 2756.68, y: 1580.04, size: 499.995, shape: 'dot', physics: false, color: 'rgba(51,0,102,0.4)'},
+	]);
+	var edges = new vis.DataSet([
+		{from: 36, to: 37},
+		{from: 35, to: 37},
+		{from: 34, to: 35},
+		{from: 32, to: 33},
+		{from: 31, to: 33},
+		{from: 31, to: 32},
+		{from: 30, to: 32},
+		{from: 28, to: 30},
+		{from: 28, to: 29},
+		{from: 27, to: 34},
+		{from: 27, to: 32},
+		{from: 27, to: 28},
+		{from: 26, to: 29},
+		{from: 25, to: 26},
+		{from: 24, to: 26},
+		{from: 23, to: 28},
+		{from: 23, to: 26},
+		{from: 23, to: 25},
+		{from: 22, to: 25},
+		{from: 21, to: 24},
+		{from: 20, to: 21},
+		{from: 18, to: 22},
+		{from: 17, to: 31},
+		{from: 16, to: 20},
+		{from: 16, to: 19},
+		{from: 15, to: 22},
+		{from: 15, to: 18},
+		{from: 15, to: 17},
+		{from: 14, to: 17},
+		{from: 13, to: 18},
+		{from: 12, to: 20},
+		{from: 12, to: 13},
+		{from: 11, to: 24},
+		{from: 11, to: 20},
+		{from: 11, to: 19},
+		{from: 10, to: 21},
+		{from: 10, to: 13},
+		{from: 9, to: 25},
+		{from: 9, to: 21},
+		{from: 8, to: 18},
+		{from: 8, to: 15},
+		{from: 8, to: 14},
+		{from: 7, to: 32},
+		{from: 7, to: 23},
+		{from: 7, to: 22},
+		{from: 7, to: 17},
+		{from: 6, to: 29},
+		{from: 5, to: 38},
+		{from: 5, to: 34},
+		{from: 5, to: 6},
+		{from: 4, to: 38},
+		{from: 3, to: 36},
+		{from: 3, to: 34},
+		{from: 3, to: 4},
+		{from: 2, to: 36},
+		{from: 2, to: 35},
+		{from: 2, to: 34},
+		{from: 1, to: 35},
+		{from: 1, to: 33},
+		{from: 0, to: 37},
+		{from: 0, to: 1},
+	]);
+	// create a network
+	var container = document.getElementById('mynetwork');
+	var data = {
+		nodes: nodes,
+		edges: edges
+	};
+	var options = {
+		edges: {
+			smooth: {
+				type: 'continuous',
+				roundness: 1
+			}
+		},
+		configure: true
+	};
+	var network = new vis.Network(container, data, options);
+</script>
+<script src="http://visjs.org/examples/googleAnalytics.js"></script>
+</body>
+</html>
