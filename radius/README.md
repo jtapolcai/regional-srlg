@@ -1,7 +1,7 @@
 
 *16-node Pan-European optical
 [50](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/50/16_optic_pan_eu_scaled_reduced.html)
-[100](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/100/16_optic_pan_eu_scaled_reduced.html))
+[100](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/100/16_optic_pan_eu_scaled_reduced.html)
 [200](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/200/16_optic_pan_eu_scaled_reduced.html)
 [500](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/500/16_optic_pan_eu_scaled_reduced.html)
 
@@ -30,9 +30,9 @@
 [500](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/500/39_optic_north_american_scaled_reduced.html)
 
 *79-node North-American NFSNet
+[50](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/50/79_optic_nfsnet_scaled_reduced.html)
 [100](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/100/79_optic_nfsnet_scaled_reduced.html)
 [200](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/200/79_optic_nfsnet_scaled_reduced.html)
-[50](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/50/79_optic_nfsnet_scaled_reduced.html)
 [500](http://htmlpreview.github.io/?https://github.com/jtapolcai/regional-srlg/blob/master/radius/500/79_optic_nfsnet_scaled_reduced.html)
 
 
