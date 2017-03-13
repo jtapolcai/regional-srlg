@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+	<title>Network | 3/28_optic_eu_scaled_reduced</title>
+	<script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
+	<link href="http://visjs.org/dist/vis.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#mynetwork {
+			width: 1000px;
+			height: 800px;
+			border: 1px solid lightgray;
+		}
+	</style>
+</head>
+<body>
+<p>
+	This is the 3/28_optic_eu_scaled_reduced network.
+</p>
+<div id="mynetwork"></div>
+<script type="text/javascript">
+	var nodes = new vis.DataSet([
+		{id: 27, label: '27', x: 251, y: 1964, fixed: true, font:{size: 8}},
+		{id: 26, label: '26', x: 686, y: 1838, fixed: true, font:{size: 8}},
+		{id: 25, label: '25', x: 469, y: 1492, fixed: true, font:{size: 8}},
+		{id: 24, label: '24', x: 980, y: 1436, fixed: true, font:{size: 8}},
+		{id: 23, label: '23', x: 736, y: 1112, fixed: true, font:{size: 8}},
+		{id: 22, label: '22', x: 571, y: 855, fixed: true, font:{size: 8}},
+		{id: 21, label: '21', x: 132, y: 604, fixed: true, font:{size: 8}},
+		{id: 20, label: '20', x: 548, y: 317, fixed: true, font:{size: 8}},
+		{id: 19, label: '19', x: 964, y: 686, fixed: true, font:{size: 8}},
+		{id: 18, label: '18', x: 960, y: 937, fixed: true, font:{size: 8}},
+		{id: 17, label: '17', x: 1244, y: 1343, fixed: true, font:{size: 8}},
+		{id: 16, label: '16', x: 1254, y: 1115, fixed: true, font:{size: 8}},
+		{id: 15, label: '15', x: 1373, y: 911, fixed: true, font:{size: 8}},
+		{id: 14, label: '14', x: 1370, y: 620, fixed: true, font:{size: 8}},
+		{id: 13, label: '13', x: 1548, y: 1396, fixed: true, font:{size: 8}},
+		{id: 12, label: '12', x: 1650, y: 1102, fixed: true, font:{size: 8}},
+		{id: 11, label: '11', x: 1769, y: 574, fixed: true, font:{size: 8}},
+		{id: 10, label: '10', x: 1703, y: 261, fixed: true, font:{size: 8}},
+		{id: 9, label: '9', x: 1643, y: 26, fixed: true, font:{size: 8}},
+		{id: 8, label: '8', x: 2053, y: 116, fixed: true, font:{size: 8}},
+		{id: 7, label: '7', x: 2343, y: 591, fixed: true, font:{size: 8}},
+		{id: 6, label: '6', x: 2072, y: 977, fixed: true, font:{size: 8}},
+		{id: 5, label: '5', x: 1950, y: 1162, fixed: true, font:{size: 8}},
+		{id: 4, label: '4', x: 2376, y: 1122, fixed: true, font:{size: 8}},
+		{id: 3, label: '3', x: 2059, y: 1426, fixed: true, font:{size: 8}},
+		{id: 2, label: '2', x: 2452, y: 1436, fixed: true, font:{size: 8}},
+		{id: 1, label: '1', x: 1759, y: 1795, fixed: true, font:{size: 8}},
+		{id: 0, label: '0', x: 2637, y: 1977, fixed: true, font:{size: 8}},
+		{id: 28, x: 1454.97, y: 1199.03, size: 220.048, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 29, x: 1407.94, y: 1156.69, size: 250.381, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 30, x: 1080.37, y: 1155.13, size: 251.354, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 31, x: 1460.5, y: 1153.5, size: 260.019, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 32, x: 1431.86, y: 1163.84, size: 261.812, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 33, x: 1571, y: 742.5, size: 262.209, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 34, x: 990, y: 1227.5, size: 281.243, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 35, x: 995.83, y: 1214.68, size: 281.599, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 36, x: 1262.87, y: 1400.02, size: 287.37, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 37, x: 1585.98, y: 816.863, size: 294.452, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 38, x: 1594.29, y: 812.034, size: 297.485, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 39, x: 2262, y: 1206.5, size: 300.159, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 40, x: 1852.36, y: 870.198, size: 309.921, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 41, x: 1053.34, y: 1007.83, size: 336.218, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 42, x: 1816.22, y: 1194.28, size: 337.825, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 43, x: 1711.51, y: 921.543, size: 340.888, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 44, x: 1711.76, y: 907.903, size: 340.99, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 45, x: 1247.35, y: 1226.5, size: 341.813, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 46, x: 903.922, y: 1093.62, size: 352.947, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 47, x: 1704.5, y: 1448.5, size: 352.976, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 48, x: 1724.5, y: 922.868, size: 353.912, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 49, x: 2018.71, y: 1074.64, size: 355.884, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 50, x: 775.5, y: 1145.5, size: 357.477, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 51, x: 1064.18, y: 1029.66, size: 357.5, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 52, x: 1314.37, y: 971.693, size: 358.282, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 53, x: 1310.01, y: 991.781, size: 359.553, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 54, x: 2023, y: 426, size: 362.251, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 55, x: 711, y: 1475, size: 366.076, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 56, x: 1596.6, y: 1250.93, size: 366.636, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 57, x: 1237.16, y: 1175.79, size: 368.059, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 58, x: 1307, y: 981.5, size: 369.165, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 59, x: 1591.54, y: 1466.41, size: 371.016, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 60, x: 1992, y: 953.583, size: 375.031, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 61, x: 1622.54, y: 1362.03, size: 381.232, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 62, x: 586.217, y: 757.82, size: 386.765, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 63, x: 624.355, y: 738.234, size: 392.3, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 64, x: 2194.51, y: 1477.57, size: 401.431, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 65, x: 1587.24, y: 997.208, size: 401.822, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 66, x: 1033.69, y: 835.92, size: 401.875, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 67, x: 971.669, y: 850.869, size: 402.906, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 68, x: 1360.67, y: 602.357, size: 407.61, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 69, x: 1572.44, y: 1373.89, size: 412.618, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 70, x: 1587.38, y: 1354.95, size: 412.973, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 71, x: 2332.29, y: 1011.84, size: 423.193, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 72, x: 1676.5, y: 681.5, size: 423.55, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 73, x: 2103.76, y: 1005.55, size: 423.668, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 74, x: 1701.48, y: 1191.73, size: 427.405, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 75, x: 2397.5, y: 1013.5, size: 428.217, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 76, x: 1340.55, y: 485.755, size: 428.697, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 77, x: 1369.5, y: 1615.5, size: 431.087, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 78, x: 1996.5, y: 846.5, size: 432.73, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 79, x: 2062.5, y: 546.5, size: 432.821, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 80, x: 2026.64, y: 547.291, size: 434.312, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 81, x: 1999.19, y: 1403.21, size: 434.602, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 82, x: 2013.33, y: 1398.06, size: 442.519, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 83, x: 1988.4, y: 1392.77, size: 442.632, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 84, x: 921.391, y: 570.529, size: 453.545, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 85, x: 2000, y: 1416, size: 454.658, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 86, x: 1303.5, y: 356, size: 475.672, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 87, x: 300.5, y: 1048, size: 477.114, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 88, x: 1858.14, y: 653.029, size: 489.99, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 89, x: 628.5, y: 1346.5, size: 497.068, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 90, x: 1063.52, y: 1512.69, size: 500.556, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 91, x: 1738.34, y: 557.34, size: 500.759, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 92, x: 1331.5, y: 599, size: 504.467, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 93, x: 2214.5, y: 619, size: 530.507, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 94, x: 1222.5, y: 1816.5, size: 539.147, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 95, x: 1519.5, y: 1431, size: 541.739, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 96, x: 1008.5, y: 1444, size: 543.847, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 97, x: 2074.92, y: 663.816, size: 550.471, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 98, x: 1125.23, y: 283.357, size: 580.422, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 99, x: 1126.69, y: 345.947, size: 581.628, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 100, x: 1508.5, y: 401, size: 616.793, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 101, x: 1114, y: 1643.5, size: 664.77, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 102, x: 318.325, y: 1247.26, size: 671.922, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 103, x: 1107, y: 440.5, size: 679.79, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+		{id: 104, x: 1569, y: 1637, size: 907.804, shape: 'dot', physics: false, color: 'rgba(120,10,10,0.4)', title:''},
+	]);
+	var edges = new vis.DataSet([
+		{from: 26, to: 27},
+		{from: 25, to: 27},
+		{from: 24, to: 26},
+		{from: 23, to: 25},
+		{from: 23, to: 24},
+		{from: 22, to: 23},
+		{from: 21, to: 22},
+		{from: 20, to: 21},
+		{from: 19, to: 22},
+		{from: 19, to: 20},
+		{from: 18, to: 23},
+		{from: 18, to: 19},
+		{from: 17, to: 24},
+		{from: 16, to: 23},
+		{from: 16, to: 17},
+		{from: 15, to: 18},
+		{from: 15, to: 16},
+		{from: 14, to: 19},
+		{from: 14, to: 15},
+		{from: 13, to: 17},
+		{from: 12, to: 15},
+		{from: 12, to: 13},
+		{from: 11, to: 14},
+		{from: 11, to: 12},
+		{from: 10, to: 11},
+		{from: 9, to: 10},
+		{from: 8, to: 9},
+		{from: 7, to: 11},
+		{from: 7, to: 8},
+		{from: 6, to: 11},
+		{from: 5, to: 12},
+		{from: 5, to: 6},
+		{from: 4, to: 7},
+		{from: 4, to: 6},
+		{from: 3, to: 5},
+		{from: 2, to: 4},
+		{from: 2, to: 3},
+		{from: 1, to: 13},
+		{from: 1, to: 3},
+		{from: 0, to: 2},
+		{from: 0, to: 1},
+	]);
+	// create a network
+	var container = document.getElementById('mynetwork');
+	var data = {
+		nodes: nodes,
+		edges: edges
+	};
+	var options = {
+		edges: {
+			smooth: {
+				type: 'continuous',
+				roundness: 1
+			}
+		},
+		configure: true
+	};
+	var network = new vis.Network(container, data, options);
+</script>
+<script src="http://visjs.org/examples/googleAnalytics.js"></script>
+</body>
+</html>
