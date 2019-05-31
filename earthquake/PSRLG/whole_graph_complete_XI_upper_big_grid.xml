@@ -1,0 +1,355 @@
+<Failure_State_Distribution><Info>
+	<Network>
+		Interroute
+	</Network>
+	<Grid>
+		0.1
+	</Grid>
+	<Intensity_Threshold>
+		XI
+	</Intensity_Threshold>
+	<Type>
+		joint
+	</Type>
+</Info>
+ 
+	<Failure_State>
+		<Probability>
+			0.051071891347401796
+		</Probability>
+		<Rate>
+			3.450815786E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.014012470387999446
+		</Probability>
+		<Rate>
+			9.46791919E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00923194907059903
+		</Probability>
+		<Rate>
+			6.23782569E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00923194907059903
+		</Probability>
+		<Rate>
+			6.23782569E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0239087563232125
+		</Probability>
+		<Rate>
+			1.6154622742E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.16016907522002016
+		</Probability>
+		<Rate>
+			1.0822273438799992E-4
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.002180004637864366
+		</Probability>
+		<Rate>
+			1.4729813640000003E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.12992668340753
+		</Probability>
+		<Rate>
+			8.7788612933E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.018715752694720745
+		</Probability>
+		<Rate>
+			1.2645823983E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.030134532021902204
+		</Probability>
+		<Rate>
+			2.0361242958E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.04382997276512148
+		</Probability>
+		<Rate>
+			2.9614952163999987E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.021736217580860924
+		</Probability>
+		<Rate>
+			1.468668592E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.011988102977355896
+		</Probability>
+		<Rate>
+			8.10009849E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00923194907059903
+		</Probability>
+		<Rate>
+			6.23782569E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00923194907059903
+		</Probability>
+		<Rate>
+			6.23782569E-6
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.04230701520092971
+		</Probability>
+		<Rate>
+			2.8585923109999998E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.012717701552878323
+		</Probability>
+		<Rate>
+			8.59307226E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00923194907059903
+		</Probability>
+		<Rate>
+			6.23782569E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00923194907059903
+		</Probability>
+		<Rate>
+			6.23782569E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.008105164904708332
+		</Probability>
+		<Rate>
+			5.47648232E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+		</Edges>
+	</Failure_State>
+</Failure_State_Distribution>

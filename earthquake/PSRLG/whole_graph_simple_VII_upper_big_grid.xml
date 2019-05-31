@@ -1,0 +1,3786 @@
+<Failure_State_Distribution><Info>
+	<Network>
+		Interroute
+	</Network>
+	<Grid>
+		0.1
+	</Grid>
+	<Intensity_Threshold>
+		VII
+	</Intensity_Threshold>
+	<Type>
+		exact
+	</Type>
+</Info>
+ 
+	<Failure_State>
+		<Probability>
+			1.6952949189842454E-6
+		</Probability>
+		<Rate>
+			2.5303475010000004E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+			17:(15:Milan, 14:Berne)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.8507708875378735E-6
+		</Probability>
+		<Rate>
+			8.73268912E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.916370779572168E-6
+		</Probability>
+		<Rate>
+			2.86031885E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.695657649284959E-8
+		</Probability>
+		<Rate>
+			8.501171647499995E-8
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			15:(10:Monaco, 11:Marseille)
+			16:(11:Marseille, 13:Lausanne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.090775257737764E-5
+		</Probability>
+		<Rate>
+			1.3568624667E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.3192420619320325E-6
+		</Probability>
+		<Rate>
+			1.9690620300000005E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.617204061101248E-5
+		</Probability>
+		<Rate>
+			9.876644808000003E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.564881465714785E-6
+		</Probability>
+		<Rate>
+			3.82826689E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.606664606530906E-7
+		</Probability>
+		<Rate>
+			1.28460553E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			17:(15:Milan, 14:Berne)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0010278589797752086
+		</Probability>
+		<Rate>
+			0.0015341521830390026
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.587760148041149E-7
+		</Probability>
+		<Rate>
+			8.340127000000001E-7
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.665085412817252E-6
+		</Probability>
+		<Rate>
+			9.94811111E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0011355426459175317
+		</Probability>
+		<Rate>
+			0.0016948776665348419
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			17:(15:Milan, 14:Berne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.7114448943397894E-4
+		</Probability>
+		<Rate>
+			2.5544524808029343E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			17:(15:Milan, 14:Berne)
+			18:(14:Berne, 13:Lausanne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.720336131778808E-7
+		</Probability>
+		<Rate>
+			1.15231474E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.0832313100173198E-6
+		</Probability>
+		<Rate>
+			1.6167993E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			21:(19:Cagliari, 5:Mazara del Vallo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.002643279092172691
+		</Probability>
+		<Rate>
+			0.003945280889139998
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00373042284123419
+		</Probability>
+		<Rate>
+			0.00556791978097
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.6250390434233614E-7
+		</Probability>
+		<Rate>
+			6.9031977E-7
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			20:(18:Messina, 4:Palermo)
+			21:(19:Cagliari, 5:Mazara del Vallo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0014321440707731452
+		</Probability>
+		<Rate>
+			0.0021375762588399993
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			13:(5:Mazara del Vallo, 3:Catania)
+			21:(19:Cagliari, 5:Mazara del Vallo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0017320540877373875
+		</Probability>
+		<Rate>
+			0.0025852131587399997
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			13:(5:Mazara del Vallo, 3:Catania)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.622551610180346E-5
+		</Probability>
+		<Rate>
+			9.884626403000003E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			13:(5:Mazara del Vallo, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.230662786497099E-5
+		</Probability>
+		<Rate>
+			4.821992572999999E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			13:(5:Mazara del Vallo, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			21:(19:Cagliari, 5:Mazara del Vallo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.5637283812976783E-6
+		</Probability>
+		<Rate>
+			3.82654583E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			10:(12:Turin, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.980705702734536E-4
+		</Probability>
+		<Rate>
+			4.4489139569000034E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			9:(15:Milan, 12:Turin)
+			17:(15:Milan, 14:Berne)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.724053686718591E-7
+		</Probability>
+		<Rate>
+			1.30212668E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0031672547400187568
+		</Probability>
+		<Rate>
+			0.004727351581539998
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			10:(12:Turin, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.2991861589088952E-6
+		</Probability>
+		<Rate>
+			4.92426855E-6
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			8:(6:Pisa, 9:Genoa)
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.650001238462499E-7
+		</Probability>
+		<Rate>
+			1.14181676E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			12:(4:Palermo, 5:Mazara del Vallo)
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.341466704490449E-6
+		</Probability>
+		<Rate>
+			2.00223388E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.765189316579995E-6
+		</Probability>
+		<Rate>
+			2.6346698300000004E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			9:(15:Milan, 12:Turin)
+			17:(15:Milan, 14:Berne)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.8176517214062E-5
+		</Probability>
+		<Rate>
+			7.190685736999999E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			9:(15:Milan, 12:Turin)
+			17:(15:Milan, 14:Berne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2549008277979037E-5
+		</Probability>
+		<Rate>
+			1.87302819E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.286803395286699E-7
+		</Probability>
+		<Rate>
+			4.9057864E-7
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			10:(12:Turin, 9:Genoa)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.5163371480853364E-5
+		</Probability>
+		<Rate>
+			2.2632403780400005E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			16:(11:Marseille, 13:Lausanne)
+			17:(15:Milan, 14:Berne)
+			18:(14:Berne, 13:Lausanne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.004088007687757085
+		</Probability>
+		<Rate>
+			0.006101640440816497
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			11:(9:Genoa, 10:Monaco)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.804027408190914E-7
+		</Probability>
+		<Rate>
+			5.6777798E-7
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0015425232680756776
+		</Probability>
+		<Rate>
+			0.0023023250131300006
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.5766769571169E-6
+		</Probability>
+		<Rate>
+			1.42938673E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			25:(20:Civitavecchia, 0:Rome)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0026832682839750916
+		</Probability>
+		<Rate>
+			0.0040049675845999985
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			25:(20:Civitavecchia, 0:Rome)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.892793386809732E-5
+		</Probability>
+		<Rate>
+			1.3273122730000003E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			25:(20:Civitavecchia, 0:Rome)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.963500447740294E-6
+		</Probability>
+		<Rate>
+			1.188608733E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			25:(20:Civitavecchia, 0:Rome)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.481849158865683E-4
+		</Probability>
+		<Rate>
+			6.689476675710004E-4
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			25:(20:Civitavecchia, 0:Rome)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.9042125034945228E-5
+		</Probability>
+		<Rate>
+			4.33474245E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			5:(1:Pescara, 8:Bologna)
+			25:(20:Civitavecchia, 0:Rome)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.4260239794951972E-5
+		</Probability>
+		<Rate>
+			2.12844159E-5
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			5:(1:Pescara, 8:Bologna)
+			25:(20:Civitavecchia, 0:Rome)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.2644707500521324E-6
+		</Probability>
+		<Rate>
+			3.3798826618999997E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			23:(21:Olbia, 20:Civitavecchia)
+			25:(20:Civitavecchia, 0:Rome)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.670490089116807E-5
+		</Probability>
+		<Rate>
+			5.478465911999999E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			23:(21:Olbia, 20:Civitavecchia)
+			24:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.345550401801812E-4
+		</Probability>
+		<Rate>
+			0.0012456323892199998
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.004904123236007783
+		</Probability>
+		<Rate>
+			0.007319750584909103
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.319951349056891E-5
+		</Probability>
+		<Rate>
+			1.0925544809999997E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.4949393500052793E-4
+		</Probability>
+		<Rate>
+			2.2313026518707004E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			31:(18:Messina, 2:Bari)
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.026780358149957984
+		</Probability>
+		<Rate>
+			0.039971577547835944
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.4510508994230326E-6
+		</Probability>
+		<Rate>
+			5.150937410000001E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.125508504486435E-6
+		</Probability>
+		<Rate>
+			1.0635325120000001E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			31:(18:Messina, 2:Bari)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.7744528741335897E-4
+		</Probability>
+		<Rate>
+			5.633637717400002E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0075847833799024406
+		</Probability>
+		<Rate>
+			0.011320825336078819
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.645502588025144E-5
+		</Probability>
+		<Rate>
+			1.2904023732700004E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			31:(18:Messina, 2:Bari)
+			32:(2:Bari, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.7883460503369024E-5
+		</Probability>
+		<Rate>
+			2.6692328920000006E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			31:(18:Messina, 2:Bari)
+			32:(2:Bari, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.440828842607959E-7
+		</Probability>
+		<Rate>
+			1.25985337E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.6136490079556586E-5
+		</Probability>
+		<Rate>
+			3.901055894E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.622546264392637E-5
+		</Probability>
+		<Rate>
+			1.2869759796977002E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			21:(19:Cagliari, 5:Mazara del Vallo)
+			22:(19:Cagliari, 21:Olbia)
+			24:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.047485645000738E-7
+		</Probability>
+		<Rate>
+			1.350401186E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.004915382072077164
+		</Probability>
+		<Rate>
+			0.007336555193590112
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.076708084424787E-6
+		</Probability>
+		<Rate>
+			1.205505773E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.01404642088109E-5
+		</Probability>
+		<Rate>
+			3.0061066490000004E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.585652093480273E-5
+		</Probability>
+		<Rate>
+			1.1322121952499998E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.196946554151748E-6
+		</Probability>
+		<Rate>
+			1.7865273400000002E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.001335370036020092
+		</Probability>
+		<Rate>
+			0.001993134171355999
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			11:(9:Genoa, 10:Monaco)
+			15:(10:Monaco, 11:Marseille)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.779312557387907E-6
+		</Probability>
+		<Rate>
+			1.4596315256999998E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			23:(21:Olbia, 20:Civitavecchia)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.862776524493624E-4
+		</Probability>
+		<Rate>
+			4.2728963223780033E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			22:(19:Cagliari, 21:Olbia)
+			23:(21:Olbia, 20:Civitavecchia)
+			24:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2891706049907766E-4
+		</Probability>
+		<Rate>
+			1.9241782548700006E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.008264977226004E-4
+		</Probability>
+		<Rate>
+			5.982618808617994E-4
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.25247291680852E-5
+		</Probability>
+		<Rate>
+			1.3809969852999996E-4
+		</Rate>
+		<Num>
+			8
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.151214768540717E-6
+		</Probability>
+		<Rate>
+			4.703410790299998E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.4029794658866685E-5
+		</Probability>
+		<Rate>
+			8.064328770389995E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.3970822185511176E-5
+		</Probability>
+		<Rate>
+			2.085243966E-5
+		</Rate>
+		<Num>
+			7
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2131045560598652E-8
+		</Probability>
+		<Rate>
+			1.8106443E-8
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+			31:(18:Messina, 2:Bari)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.916352178260702E-5
+		</Probability>
+		<Rate>
+			1.4800856577999998E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.294431838263635E-4
+		</Probability>
+		<Rate>
+			0.0013872596509199998
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.121548618999244E-5
+		</Probability>
+		<Rate>
+			1.0629414711000001E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			27:(22:Treviso, 16:Venice)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.170004961946669E-5
+		</Probability>
+		<Rate>
+			1.3686880601E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			28:(22:Treviso, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.323763691113179E-5
+		</Probability>
+		<Rate>
+			1.0931235000000001E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.23789702249231E-5
+		</Probability>
+		<Rate>
+			9.310502241000001E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			22:(19:Cagliari, 21:Olbia)
+			23:(21:Olbia, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.675590706440316E-4
+		</Probability>
+		<Rate>
+			5.486078943900002E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			27:(22:Treviso, 16:Venice)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0036782244146362723
+		</Probability>
+		<Rate>
+			0.005490009939550005
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.3835295565677722E-5
+		</Probability>
+		<Rate>
+			2.0650156600000004E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.504153953228069E-5
+		</Probability>
+		<Rate>
+			3.7376267849999995E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0077892084291659724
+		</Probability>
+		<Rate>
+			0.011625944172190025
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.664272588686033E-5
+		</Probability>
+		<Rate>
+			1.1439468598999998E-4
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.2394241805929055E-4
+		</Probability>
+		<Rate>
+			4.835069573000005E-4
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.0763669785033333E-6
+		</Probability>
+		<Rate>
+			1.6065538E-6
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			25:(20:Civitavecchia, 0:Rome)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.996392961845382E-7
+		</Probability>
+		<Rate>
+			4.4723283E-7
+		</Rate>
+		<Num>
+			7
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.811312499259655E-6
+		</Probability>
+		<Rate>
+			7.181223999849001E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			22:(19:Cagliari, 21:Olbia)
+			24:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.240673492910205E-4
+		</Probability>
+		<Rate>
+			1.8517928869999997E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.1699729667357566E-6
+		</Probability>
+		<Rate>
+			7.7165501E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.013672958753514482
+		</Probability>
+		<Rate>
+			0.02040785743283001
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.93137356532347E-6
+		</Probability>
+		<Rate>
+			1.482327706E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			23:(21:Olbia, 20:Civitavecchia)
+			25:(20:Civitavecchia, 0:Rome)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.76508384694462E-5
+		</Probability>
+		<Rate>
+			8.604795154999997E-5
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			23:(21:Olbia, 20:Civitavecchia)
+			25:(20:Civitavecchia, 0:Rome)
+			26:(6:Pisa, 20:Civitavecchia)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.8096142976743468E-5
+		</Probability>
+		<Rate>
+			4.193547941E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			23:(21:Olbia, 20:Civitavecchia)
+			25:(20:Civitavecchia, 0:Rome)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.5612437245670645E-4
+		</Probability>
+		<Rate>
+			6.807978677140997E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			23:(21:Olbia, 20:Civitavecchia)
+			25:(20:Civitavecchia, 0:Rome)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.5718095774385694E-6
+		</Probability>
+		<Rate>
+			2.3460369E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			21:(19:Cagliari, 5:Mazara del Vallo)
+			24:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.8871481257529105E-6
+		</Probability>
+		<Rate>
+			4.30927266E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.420272030675202E-4
+		</Probability>
+		<Rate>
+			5.104997772744202E-4
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			24:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0022734763717502204
+		</Probability>
+		<Rate>
+			0.0033933241888600015
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.9190307475047428E-4
+		</Probability>
+		<Rate>
+			2.8642890401631453E-4
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			22:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.18815702107738E-6
+		</Probability>
+		<Rate>
+			6.2511204E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.932053808052894E-5
+		</Probability>
+		<Rate>
+			7.361438938000001E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			27:(22:Treviso, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.004233690337781232
+		</Probability>
+		<Rate>
+			0.00631908209377
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			28:(22:Treviso, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.7628740637059706E-4
+		</Probability>
+		<Rate>
+			4.1237848378999995E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.004412857910783892
+		</Probability>
+		<Rate>
+			0.0065865023612000015
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.358475337898892E-7
+		</Probability>
+		<Rate>
+			9.4904739E-7
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.6877379854508725E-5
+		</Probability>
+		<Rate>
+			4.01163893E-5
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			27:(22:Treviso, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.005352237314391621
+		</Probability>
+		<Rate>
+			0.0079885925225
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.958026198780068E-5
+		</Probability>
+		<Rate>
+			1.0385345940000001E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0016583929892652165
+		</Probability>
+		<Rate>
+			0.0024752687624271597
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			21:(19:Cagliari, 5:Mazara del Vallo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.949859178544106E-4
+		</Probability>
+		<Rate>
+			0.0010373156085000002
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.7034292563650642E-5
+		</Probability>
+		<Rate>
+			4.035059260999998E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0047413104471986985
+		</Probability>
+		<Rate>
+			0.007076740988949997
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.488682654178579E-4
+		</Probability>
+		<Rate>
+			5.207105464028611E-4
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			18:(14:Berne, 13:Lausanne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.02651191272035944
+		</Probability>
+		<Rate>
+			0.03957090376870001
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.007794387784522446
+		</Probability>
+		<Rate>
+			0.01163367472617
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.6816096837152266E-6
+		</Probability>
+		<Rate>
+			2.5099213199999997E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.32207869849726E-6
+		</Probability>
+		<Rate>
+			6.4510079700000005E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.4432682106952963E-4
+		</Probability>
+		<Rate>
+			2.1541798240000008E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.4955663297967788E-5
+		</Probability>
+		<Rate>
+			3.724809149999999E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.879703610460365E-7
+		</Probability>
+		<Rate>
+			1.4746156E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.5957489241782885
+		</Probability>
+		<Rate>
+			0.8891973807254611
+		</Rate>
+		<Num>
+			0
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.00381545365816926
+		</Probability>
+		<Rate>
+			0.005694834285774003
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.280893546970968E-4
+		</Probability>
+		<Rate>
+			0.0012359818966000006
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.759956854961973E-6
+		</Probability>
+		<Rate>
+			1.158228413E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.012658149006808537
+		</Probability>
+		<Rate>
+			0.018893182152551015
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.013195594417990605
+		</Probability>
+		<Rate>
+			0.019695357418860013
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.1986853492064796E-5
+		</Probability>
+		<Rate>
+			3.281693301E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.3293349305891359E-4
+		</Probability>
+		<Rate>
+			1.9841263499000009E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.004311608650785855
+		</Probability>
+		<Rate>
+			0.006435380683699996
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.819705242555541E-5
+		</Probability>
+		<Rate>
+			5.7011800759999995E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.006414410971471716
+		</Probability>
+		<Rate>
+			0.009573961786999999
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			19:(18:Messina, 3:Catania)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0021779680045203764
+		</Probability>
+		<Rate>
+			0.003250771199620002
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.03388320812411496
+		</Probability>
+		<Rate>
+			0.050573083209667954
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2452371692986874E-4
+		</Probability>
+		<Rate>
+			1.8586044965999992E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			32:(2:Bari, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.76095063192079E-5
+		</Probability>
+		<Rate>
+			4.120913980000001E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.036080118839013096
+		</Probability>
+		<Rate>
+			0.05385212774352006
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.1023150963050826E-6
+		</Probability>
+		<Rate>
+			1.6452832E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0017705063246600346
+		</Probability>
+		<Rate>
+			0.0026426058404000006
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			32:(2:Bari, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.439259998987226E-6
+		</Probability>
+		<Rate>
+			1.259619209E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0036222839047450163
+		</Probability>
+		<Rate>
+			0.005406514774300001
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.0434153153644885E-7
+		</Probability>
+		<Rate>
+			3.0499418E-7
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2142442005774835E-7
+		</Probability>
+		<Rate>
+			1.8123453E-7
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			27:(22:Treviso, 16:Venice)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.022267553131624557
+		</Probability>
+		<Rate>
+			0.03323589706370998
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0011179184962184572
+		</Probability>
+		<Rate>
+			0.0016685723773199994
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.838983878968697E-5
+		</Probability>
+		<Rate>
+			1.0207666863E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.7890061249567674E-4
+		</Probability>
+		<Rate>
+			4.1627887864999994E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.402592475578444E-6
+		</Probability>
+		<Rate>
+			8.06375116E-6
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+			32:(2:Bari, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.848746614230492E-4
+		</Probability>
+		<Rate>
+			8.729667749000004E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0017572091965106754
+		</Probability>
+		<Rate>
+			0.002622758936710003
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.039374011253276386
+		</Probability>
+		<Rate>
+			0.058768495005439986
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.112253098384231E-6
+		</Probability>
+		<Rate>
+			6.13782843E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.506261101672367E-5
+		</Probability>
+		<Rate>
+			3.7407718529999994E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.446993025984972E-4
+		</Probability>
+		<Rate>
+			8.130022119999999E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.1614376653923058E-7
+		</Probability>
+		<Rate>
+			3.2260985E-7
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+			32:(2:Bari, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.113319625187175E-5
+		</Probability>
+		<Rate>
+			1.3602273729E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.940629303989543E-4
+		</Probability>
+		<Rate>
+			0.0010359379844799997
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			5:(1:Pescara, 8:Bologna)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.496879445141528E-5
+		</Probability>
+		<Rate>
+			2.2341983809999997E-5
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			5:(1:Pescara, 8:Bologna)
+			32:(2:Bari, 24:Naples)
+			33:(0:Rome, 24:Naples)
+			34:(24:Naples, 18:Messina)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.608146683943195E-6
+		</Probability>
+		<Rate>
+			2.4002726000000003E-6
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			0:(2:Bari, 1:Pescara)
+			1:(1:Pescara, 0:Rome)
+			2:(0:Rome, 7:Florence)
+			5:(1:Pescara, 8:Bologna)
+			33:(0:Rome, 24:Naples)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0021982968579357786
+		</Probability>
+		<Rate>
+			0.003281113450317376
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			23:(21:Olbia, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.2519428393725933E-4
+		</Probability>
+		<Rate>
+			6.346325242600002E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.0396849619869335E-4
+		</Probability>
+		<Rate>
+			4.5369446703699993E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			28:(22:Treviso, 17:Udine)
+			29:(23:Graz, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			4.405805808491239E-4
+		</Probability>
+		<Rate>
+			6.575976600040002E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.4471420814957915E-5
+		</Probability>
+		<Rate>
+			2.15996185E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.008267158137848691
+		</Probability>
+		<Rate>
+			0.012339317896977295
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.01655904896317063
+		</Probability>
+		<Rate>
+			0.024715551078275118
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			29:(23:Graz, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.006454773314625835
+		</Probability>
+		<Rate>
+			0.009634205437229095
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			19:(18:Messina, 3:Catania)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.001056892696104E-5
+		</Probability>
+		<Rate>
+			2.98671886E-5
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.268618680023921E-6
+		</Probability>
+		<Rate>
+			7.8637858E-6
+		</Rate>
+		<Num>
+			7
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			6:(8:Bologna, 16:Venice)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2186619601581632E-6
+		</Probability>
+		<Rate>
+			1.8189391184500005E-6
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			21:(19:Cagliari, 5:Mazara del Vallo)
+			22:(19:Cagliari, 21:Olbia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.816244662733884E-5
+		</Probability>
+		<Rate>
+			5.696014916000001E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			13:(5:Mazara del Vallo, 3:Catania)
+			20:(18:Messina, 4:Palermo)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.9571619799835432E-6
+		</Probability>
+		<Rate>
+			2.9212026E-6
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.0360789206368259E-4
+		</Probability>
+		<Rate>
+			1.5464210258135994E-4
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			3.7216686920147246E-4
+		</Probability>
+		<Rate>
+			5.55485359446E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			14:(16:Venice, 17:Udine)
+			28:(22:Treviso, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.501649933529788E-4
+		</Probability>
+		<Rate>
+			3.7338893586000017E-4
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.649246185685051E-5
+		</Probability>
+		<Rate>
+			3.9541871980000005E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2453522920875503E-5
+		</Probability>
+		<Rate>
+			1.8587763255E-5
+		</Rate>
+		<Num>
+			7
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+			11:(9:Genoa, 10:Monaco)
+			17:(15:Milan, 14:Berne)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.676273284957182E-8
+		</Probability>
+		<Rate>
+			9.9648098E-8
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0015894844701074052
+		</Probability>
+		<Rate>
+			0.0023724179266840294
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			14:(16:Venice, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.002980818639619532
+		</Probability>
+		<Rate>
+			0.004449082523184004
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			14:(16:Venice, 17:Udine)
+			28:(22:Treviso, 17:Udine)
+			29:(23:Graz, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.445794650188348E-6
+		</Probability>
+		<Rate>
+			3.6505214E-6
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.353060951707901E-6
+		</Probability>
+		<Rate>
+			3.5121098E-6
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.937316721628563E-5
+		</Probability>
+		<Rate>
+			8.861864895E-5
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			14:(16:Venice, 17:Udine)
+			29:(23:Graz, 17:Udine)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.009642280812058264
+		</Probability>
+		<Rate>
+			0.014391785690805004
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.811014233142245E-4
+		</Probability>
+		<Rate>
+			0.0011658490876
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			8:(6:Pisa, 9:Genoa)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.5539007480328435E-4
+		</Probability>
+		<Rate>
+			2.3193067062E-4
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			8.385646946871615E-6
+		</Probability>
+		<Rate>
+			1.2516170820000001E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.0866144596703091E-5
+		</Probability>
+		<Rate>
+			1.6218488899999996E-5
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.8565144109929395E-4
+		</Probability>
+		<Rate>
+			2.7709789888599994E-4
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.608475128967249E-4
+		</Probability>
+		<Rate>
+			9.86361625977266E-4
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			15:(10:Monaco, 11:Marseille)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.8434575989862146E-5
+		</Probability>
+		<Rate>
+			2.7514907740000003E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+			29:(23:Graz, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			5.188712514720661E-7
+		</Probability>
+		<Rate>
+			7.7445202E-7
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			9:(15:Milan, 12:Turin)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.992251500684109E-6
+		</Probability>
+		<Rate>
+			2.97357619E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			6:(8:Bologna, 16:Venice)
+			14:(16:Venice, 17:Udine)
+			27:(22:Treviso, 16:Venice)
+			28:(22:Treviso, 17:Udine)
+			29:(23:Graz, 17:Udine)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			7.474406995338546E-6
+		</Probability>
+		<Rate>
+			1.115608078E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			2.7595926051161846E-5
+		</Probability>
+		<Rate>
+			4.118887029E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.3746524879788536E-6
+		</Probability>
+		<Rate>
+			9.514619440000001E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			7:(8:Bologna, 15:Milan)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0012609471247684884
+		</Probability>
+		<Rate>
+			0.0018820527156200024
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			9:(15:Milan, 12:Turin)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			9.11684825002733E-6
+		</Probability>
+		<Rate>
+			1.3607540451000002E-5
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			7:(8:Bologna, 15:Milan)
+			9:(15:Milan, 12:Turin)
+			10:(12:Turin, 9:Genoa)
+			17:(15:Milan, 14:Berne)
+			30:(15:Milan, 22:Treviso)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.2296182329151039E-5
+		</Probability>
+		<Rate>
+			1.83529213E-5
+		</Rate>
+		<Num>
+			4
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0026007843081099183
+		</Probability>
+		<Rate>
+			0.0038818544201199975
+		</Rate>
+		<Num>
+			3
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			3:(6:Pisa, 7:Florence)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			1.8454772401511798E-4
+		</Probability>
+		<Rate>
+			2.754505231200001E-4
+		</Rate>
+		<Num>
+			5
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			6.692505815998805E-6
+		</Probability>
+		<Rate>
+			9.989038000000003E-6
+		</Rate>
+		<Num>
+			6
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			2:(0:Rome, 7:Florence)
+			3:(6:Pisa, 7:Florence)
+			4:(7:Florence, 8:Bologna)
+			5:(1:Pescara, 8:Bologna)
+			8:(6:Pisa, 9:Genoa)
+			26:(6:Pisa, 20:Civitavecchia)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0010443362055695506
+		</Probability>
+		<Rate>
+			0.0015587456072540095
+		</Rate>
+		<Num>
+			2
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			16:(11:Marseille, 13:Lausanne)
+			18:(14:Berne, 13:Lausanne)
+		</Edges>
+	</Failure_State>
+	<Failure_State>
+		<Probability>
+			0.0014594109487270604
+		</Probability>
+		<Rate>
+			0.0021782740015856084
+		</Rate>
+		<Num>
+			1
+		</Num>
+		<Nodes>
+		</Nodes>
+		<Edges>
+			16:(11:Marseille, 13:Lausanne)
+		</Edges>
+	</Failure_State>
+</Failure_State_Distribution>
